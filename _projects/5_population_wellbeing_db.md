@@ -2,7 +2,7 @@
 layout: page
 title: Building a Scalable Database for Population Well-Being Research
 description: Centralized database to help researchers efficiently retrieve, manage, and organize secondary data sources
-img: assets/img/population_wellbeing.jpg
+img: assets/img/population_wellbeing.png
 importance: 2
 category: Academic Research
 related_publications: false

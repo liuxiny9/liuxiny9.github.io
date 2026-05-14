@@ -2,7 +2,7 @@
 layout: page
 title: Food Security - Scaling Distribution of Nutritious Packages to Address Child Malnutrition in Mumbai, India
 description: Examining barriers to equitable access to nutrition for children in Mumbai and exploring scalable distribution models
-img: assets/img/food_security_mumbai.jpg
+img: assets/img/food_security_mumbai.png
 importance: 2
 category: Social Entrepreneurship
 related_publications: false
