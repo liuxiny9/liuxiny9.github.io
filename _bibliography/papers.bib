@@ -14,3 +14,21 @@
   abstract={This pilot study develops and evaluates an agentic Retrieval-Augmented Generation (RAG) system for heart failure management, integrating an LLM-as-a-Judge (LLM-J) to autonomously critique and refine a primary chatbot's outputs. The LLM-J evaluates responses on five dimensions—accuracy, safety, robustness, empathy, and clarity—within a two-stage feedback loop. Testing on 25 synthetic HF question–answer (QA) pairs demonstrated significant improvement in the robustness of responses (+0.39 mean Δ) by adding critical safety thresholds and escalation guidance, while maintaining high accuracy, safety, and empathy. A small subset (4.3%) failed the second safety gate due to contextual drift, triggering a reliable fallback message. The system operated with a mean total cycle time of 15.74 seconds and a mean cost of $0.00312 per query, confirming its scalability for real-time clinical support. This work demonstrates the feasibility of a lightweight, self-correcting AI governance layer to enhance the safety and reliability of patient-facing digital health tools.},
   selected={true}
 }
+
+@inproceedings{liu2027empathetic,
+  abbr={AIME},
+  bibtex_show={true},
+  title={What Does It Mean for LLMs to Be Empathetic? A Co-design Study of Patient Trust in LLM-Based Chronic Care for Heart Failure},
+  author={Liu, Xinyi Celine and Velmovitsky, Pedro Elkind and Kanaan, Dina and Lohani, Raima and Mohabir, Vina and Wiljer, David and Cafazzo, Joseph and Raza, Shaina and Bellard, Broderick and Saha, Shumit and Alfred, Myrtede and Pham, Quynh},
+  booktitle={Artificial Intelligence in Medicine (AIME 2026)},
+  series={Lecture Notes in Computer Science},
+  volume={16749},
+  pages={156--160},
+  publisher={Springer},
+  address={Cham},
+  year={2027},
+  doi={10.1007/978-3-032-30813-9_29},
+  html={https://doi.org/10.1007/978-3-032-30813-9_29},
+  abstract={Recent advances in Large Language Models (LLMs) offer transformative potential for chronic disease management. However, LLMs may exhibit "pseudo-empathy", which can undermine patient trust and safety. This study investigates how patients define and perceive "meaningful empathy" when interacting with LLMs. This study uses University Health Network's (UHN) Medly Chat, an LLM-powered chatbot for heart failure (HF) patients, as a use case to investigate patient expectations of LLM-generated empathy. We conducted a co-design session with 5 participants with lived experience of HF and informal caregivers. Participants scored the level of empathy on a 1--3 Likert scale across three clinical scenarios and shared rationales for their ratings. Quantitatively, most responses were rated as somewhat empathetic (67%), with fewer rated as empathetic (20%) or not empathetic (13%). Qualitative findings indicate that overly human-like expressions (e.g., "I hear you") were frequently perceived as condescending and associated with lower empathy scores. Participants preferred LLMs to display empathy by acknowledging concerns and providing actionable guidance in a neutral, information-focused tone. These findings suggest that, while the LLM maintains a baseline level of perceived empathy, mimicking human empathy is not necessarily the gold standard in LLM-supported clinical interactions. Developers of LLM-powered patient-facing chatbots should consider prioritizing acknowledgment and actionable guidance and evaluate LLM performance accordingly. Future work involves refining the Medly Chat prototype to reflect patient expectations and priorities.},
+  selected={true}
+}
